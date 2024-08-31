@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Amor para Deysi</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background: url('img/dey1.jpeg') no-repeat center center fixed;
+            background-size: cover; /* Mantiene el tamaño de la imagen de fondo */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 90%; /* Ancho máximo ajustado para pantallas pequeñas */
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+            border: 2px solid #f06292;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+            font-size: 1em; /* Tamaño de fuente ajustado */
+            color: #333;
+        }
+        .heart {
+            font-size: 80px; /* Tamaño reducido para pantallas pequeñas */
+            color: #e91e63;
+            position: absolute;
+            top: -30px;
+            right: -30px;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.1);
+                opacity: 0.7;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 2em; /* Tamaño de fuente ajustado */
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        p {
+            line-height: 1.6;
+            margin: 15px 0;
+            text-align: justify;
+            padding: 0 10px;
+        }
+        .footer {
+            font-size: 1.1em; /* Tamaño de fuente ajustado */
+            font-weight: bold;
+            margin-top: 20px;
+            color: #e91e63;
+        }
+        .flower {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 50px; /* Tamaño ajustado */
+            height: 50px; /* Tamaño ajustado */
+            background: url('img/dey.jpeg') no-repeat center center;
+            background-size: contain;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Media queries para pantallas pequeñas */
+        @media (max-width: 600px) {
+            .heart {
+                font-size: 60px; /* Ajusta el tamaño del corazón */
+                top: -20px;
+                right: -20px;
+            }
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.8em; /* Tamaño de fuente ajustado */
+            }
+            .flower {
+                width: 40px; /* Tamaño ajustado */
+                height: 40px; /* Tamaño ajustado */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤️</div>
+        <div class="flower"></div>
+        <h1>Querida Deysi,</h1>
+        <p>Desde el primer momento en que nuestras miradas se cruzaron, supe que había encontrado a alguien especial. Cada día contigo es un regalo, y me siento increíblemente afortunado de tenerte a mi lado. Tu sonrisa ilumina mis días más oscuros y tu risa es la melodía que alegra mi corazón.</p>
+        <p>Eres mi compañera, mi confidente y mi mejor amiga. Aprecio cada pequeño gesto tuyo, desde la forma en que te ríes hasta la manera en que me entiendes sin necesidad de palabras. Contigo, todo parece más brillante y lleno de posibilidades.</p>
+        <p>Quiero que sepas que cada día mi amor por ti crece más. Eres la razón por la que me levanto con una sonrisa y la persona con la que quiero compartir todos mis sueños. Eres la luz en mi vida y el sueño que nunca quiero despertar.</p>
+        <p>Hoy quiero prometerte que seguiré esforzándome cada día para ser el mejor para ti, para hacerte feliz y para mostrarte cuánto significas para mí. No hay nada que desee más que verte sonreír y hacer de cada momento juntos algo inolvidable.</p>
+        <p>Gracias por ser tú, por tu amor incondicional y por hacer que mi vida sea tan maravillosa. No puedo esperar a continuar este viaje contigo y a construir un futuro lleno de amor y felicidad.</p>
+        <p class="footer">Con todo mi amor,<br>Fredy</p>
+    </div>
+</body>
+</html>
